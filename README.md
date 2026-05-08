@@ -3,18 +3,13 @@
 Haus Suche
 </h1>
 
-[![](https://jitpack.io/v/Foysalofficial/NafisBottomNav.svg)](https://github.com/Foysalofficial/NafisBottomNav)
+[![](https://jitpack.io/v/Melikash98/MorphNavBar.svg)](https://jitpack.io/#Melikash98/MorphNavBar)
 [![Cloudinary](https://img.shields.io/badge/Cloudinary-3.1.2-007ACC?style=flat&logo=cloudinary&logoColor=white)](https://github.com/cloudinary/cloudinary_android)
-[![Android PDF Viewer](https://img.shields.io/badge/Android_PDF_Viewer-3.2.0--beta.3-FF6F00?style=flat)](https://github.com/mhiew/AndroidPdfViewer)
 [![CircleImageView](https://img.shields.io/badge/CircleImageView-3.1.0-34A853?style=flat&logo=android)](https://github.com/hdodenhof/CircleImageView)
 [![Glide](https://img.shields.io/badge/Glide-5.0.5-00BCD4?style=flat&logo=glide)](https://github.com/bumptech/glide)
 [![Retrofit](https://img.shields.io/badge/Retrofit-3.0.0-9C27B0?style=flat)](https://github.com/square/retrofit)
-[![OkHttp](https://img.shields.io/badge/OkHttp-5.3.2-FF9800?style=flat&logo=square)](https://github.com/square/okhttp)
-[![Picasso](https://img.shields.io/badge/Picasso-2.71828-E91E63?style=flat&logo=square)](https://github.com/square/picasso)
 [![Shimmer](https://img.shields.io/badge/Shimmer-0.5.0-2196F3?style=flat)](https://github.com/facebook/shimmer-android)
 [![Android GIF Drawable](https://img.shields.io/badge/GIF_Drawable-1.2.31-FF5722?style=flat)](https://github.com/koral--/android-gif-drawable)
-[![SendGrid](https://img.shields.io/badge/SendGrid-4.10.3-00A3E0?style=flat&logo=sendgrid&logoColor=white)](https://github.com/sendgrid/sendgrid-java)
-[![JavaMail](https://img.shields.io/badge/JavaMail-1.6.8-0077B5?style=flat&logo=oracle&logoColor=white)](https://github.com/javamail/javamail)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java](https://img.shields.io/badge/Java-11+-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://www.java.com)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com)
