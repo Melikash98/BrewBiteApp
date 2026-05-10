@@ -83,6 +83,7 @@ libraries fit together in a single coherent project.
 - Firebase Firestore for real-time data sync across all screens.
 - Firebase Auth for session management and secure account deletion.
 - Cloudinary for image upload and delivery.
+- Glide for fast image loading and caching from Cloudinary URLs.
 
 **Custom Libraries**
 - [MorphNavBar]([#](https://github.com/Melikash98/MorphNavBar)) — animated bottom nav with a morphing active indicator.
