@@ -93,24 +93,20 @@ Both libraries target Android 7.0+ and were battle-tested inside BrewBite before
 ---
 
 ## Tech Stack <a name="tech-stack"></a>
-<ul>
-  <li>Android (Java) — project UI & app logic.</li>
-  <li>Realtime backend: Firebase.</li>
-  <li>Source & hosting: GitHub.</li>
-  <li>Social auth options: Google and Facebook.</li>
-</ul>
- (Keep service keys and credentials out of the repository — use google-services.json locally or environment variables for CI.)
----
-## Contributing <a name="contributing"></a>
+| Layer | Technology |
+|---|---|
+| Language | Java 11+ |
+| Min SDK | Android 7.0 (API 24) |
+| Backend & Auth | Firebase Firestore · Firebase Authentication |
+| Image Storage | Cloudinary Android SDK |
+| Payments | PayPal Mobile SDK · Google Pay API |
+| Navigation | MorphNavBar *(custom — [view repo](#))* |
+| Input Components | Editify *(custom — [view repo](#))* |
+| Image Loading | Glide |
+| Architecture | Single-activity, fragment-based |
 
-Contributions are welcome — this repo is intentionally simple to make it easy to read and extend. Suggested contributions:
-<ul>
-  <li>Fix UI bugs or improve layouts for multiple screen sizes.</li>
-  <li>Add unit and instrumentation tests for critical flows.</li>
-  <li>Improve documentation (setup steps, architecture diagram).</li>
-  <li>Implement additional Explore ranking signals or offline caching.</li>
-</ul>
-If you want to contribute, please open an issue describing the change, then send a small PR focused on one task. Keep changes minimal and well-documented.
+> Service credentials (`google-services.json`, Cloudinary API key, PayPal client ID)
+> are excluded from the repository. See [Setup](#setup) for configuration steps.
 
 ---
 
