@@ -19,8 +19,7 @@ BrewBite
 
 <img src="https://raw.githubusercontent.com/Melikash98/BrewBiteApp/main/app_video.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
 ##<p align="left" width="100%">
-  <strong>Discover and book beautiful villas and holiday homes for your next getaway.</strong>
-  <em> Fast search, real photos, and easy booking — your perfect stay is just a tap away.</em>
+  Fresh flavors, cozy moments, and a smarter way to enjoy your daily brew.
 </p>
 
 
