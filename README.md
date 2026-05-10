@@ -37,10 +37,14 @@ BrewBite
 
 ## Overview
 
-**Haus Suche**
-is a lightweight Android application focused on property discovery and short-term bookings. The app demonstrates common mobile patterns—structured categories, multi-criteria filters, a three-feed Explore section (Top Picks / Nearby / Latest), and an integrated communication flow for contacting property owners. The implementation prioritizes real-time data sync and privacy-preserving communication while keeping the codebase simple and approachable for learning and iteration.
+**BrewBite** is a full-featured Android ordering app for cafés and bakeries.
+It covers the complete user journey — from browsing menu items to online
+payment — while serving as a real-world production case study for two
+custom open-source Android libraries built during development:
+[MorphNavBar]([#](https://github.com/Melikash98/MorphNavBar)) and [Editify]([#](https://github.com/Melikash98/Editify)).
 
-This repository is a practical junior-level project intended for portfolio/demo use. Code is organized to show modular UI components, Firebase-backed data flows, and typical Android UI patterns (RecyclerView, Intent-based actions, modular data layer).
+The project demonstrates how independent libraries can be authored,
+published, and immediately dog-fooded inside a shipping product.
 
 ---
 
