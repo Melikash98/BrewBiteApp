@@ -1,6 +1,6 @@
 <h1 style="text-align: left; display: flex;">
-  <img src="https://raw.githubusercontent.com/Melikash98/BrewBiteApp/main/logoApp.png" alt="Logo" width="80px"   height="80px" style="margin-right: 10px;padding-top: 6rem;" />
-BrewBite
+  <img src="https://raw.githubusercontent.com/Melikash98/BrewBiteApp/main/logoApp.png" alt="Logo" width="80px" height="80px" style="margin-right: 10px;" />
+  BrewBite
 </h1>
 
 [![](https://jitpack.io/v/Melikash98/MorphNavBar.svg)](https://jitpack.io/#Melikash98/MorphNavBar)
@@ -14,23 +14,22 @@ BrewBite
 [![Java](https://img.shields.io/badge/Java-11+-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://www.java.com)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)](https://developer.android.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/Melikash98/Haus-Suche)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/Melikash98/BrewBiteApp)
 
+<img src="https://raw.githubusercontent.com/Melikash98/BrewBiteApp/main/app_video.gif" alt="App Demo" width="100%" />
 
-<img src="https://raw.githubusercontent.com/Melikash98/BrewBiteApp/main/app_video.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
-##<p align="left" width="100%">
+<p align="left">
   Fresh flavors, cozy moments, and a smarter way to enjoy your daily brew.
 </p>
 
-
 ---
+
 <p align="left">
   <a href="#features">Features</a><br>
-   <a href="#tech-stack">Tech Stack</a><br>
+  <a href="#tech-stack">Tech Stack</a><br>
   <a href="#contributing">Contributing</a><br>
-   <a href="#license">License</a><br>
+  <a href="#license">License</a>
 </p>
-
 
 ---
 
@@ -41,7 +40,8 @@ covering the complete user journey — from browsing a live menu to online payme
 
 The project serves a dual purpose: it is a **production-grade portfolio app**
 and a real-world test bench for two custom open-source Android libraries
-authored alongside it — [MorphNavBar]([#](https://github.com/Melikash98/MorphNavBar)) and [Editify]([#](https://github.com/Melikash98/Editify)) — both consumed here
+authored alongside it — [MorphNavBar](https://github.com/Melikash98/MorphNavBar)
+and [Editify](https://github.com/Melikash98/Editify) — both consumed here
 as dependencies, exactly as any third-party library would be.
 
 Rather than mocking payments or stubbing network calls, BrewBite integrates
@@ -58,11 +58,14 @@ who want to see how auth flows, cloud storage, payment SDKs, and custom UI
 libraries fit together in a single coherent project.
 
 ---
+
 > **Android 7.0 (API 24) → latest** &nbsp;|&nbsp; **Java** &nbsp;|&nbsp;
 > **Firebase** &nbsp;|&nbsp; **Cloudinary** &nbsp;|&nbsp; **PayPal · Google Pay**
+
 ---
 
 ## Features <a name="features"></a>
+
 **Authentication & Account**
 - Register, sign in, and reset password with real-time field validation via Editify.
 - Full profile editing — name, username, avatar (Cloudinary), gender, location, phone, birthday.
@@ -85,14 +88,15 @@ libraries fit together in a single coherent project.
 - Glide for fast image loading and caching from Cloudinary URLs.
 
 **Custom Libraries**
-- [MorphNavBar]([#](https://github.com/Melikash98/MorphNavBar)) — animated bottom nav with a morphing active indicator.
-- [Editify]([#](https://github.com/Melikash98/Editify)) — smart input field with icon support, focus states, and password toggle.
+- [MorphNavBar](https://github.com/Melikash98/MorphNavBar) — animated bottom nav with a morphing active indicator.
+- [Editify](https://github.com/Melikash98/Editify) — smart input field with icon support, focus states, and password toggle.
 
 Both libraries target Android 7.0+ and were battle-tested inside BrewBite before release.
 
 ---
 
 ## Tech Stack <a name="tech-stack"></a>
+
 | Layer | Technology |
 |---|---|
 | Language | Java 11+ |
@@ -100,8 +104,8 @@ Both libraries target Android 7.0+ and were battle-tested inside BrewBite before
 | Backend & Auth | Firebase Firestore · Firebase Authentication |
 | Image Storage | Cloudinary Android SDK |
 | Payments | PayPal Mobile SDK · Google Pay API |
-| Navigation | MorphNavBar *(custom — [view repo](#))* |
-| Input Components | Editify *(custom — [view repo](#))* |
+| Navigation | [MorphNavBar](https://github.com/Melikash98/MorphNavBar) *(custom)* |
+| Input Components | [Editify](https://github.com/Melikash98/Editify) *(custom)* |
 | Image Loading | Glide |
 | Architecture | Single-activity, fragment-based |
 
@@ -112,10 +116,8 @@ Both libraries target Android 7.0+ and were battle-tested inside BrewBite before
 
 ## License <a name="license"></a>
 
-<p align="left" width="100%">
- This project is licensed under the **MIT License** — perfect for portfolio and demo projects.
- See the [LICENSE]([#]([https://github.com/Melikash98/MorphNavBar](https://github.com/Melikash98/BrewBiteApp/blob/main/LICENSE.md))) file for full details.
-</p>
+This project is licensed under the **MIT License** — perfect for portfolio and demo projects.
+See the [LICENSE](https://github.com/Melikash98/BrewBiteApp/blob/main/LICENSE.md) file for full details.
 
 ---
 
@@ -123,11 +125,12 @@ Both libraries target Android 7.0+ and were battle-tested inside BrewBite before
 
 If you like this project and find it useful for your learning or portfolio:
 
-- Give it a **Star** ⭐ on GitHub  
-- Share it with your friends or on LinkedIn  
-- Open an issue or suggest new features  
+- Give it a **Star** ⭐ on GitHub
+- Share it with your friends or on LinkedIn
+- Open an issue or suggest new features
 
 **Feedback is always welcome!** Feel free to contact me for any questions or collaboration ideas.
 
 ---
+
 Made with ❤️ for the Android community.
