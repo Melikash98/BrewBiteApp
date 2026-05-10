@@ -57,6 +57,7 @@ Firestore in real time.
 This repository is intended as a reference for junior-to-mid Android developers
 who want to see how auth flows, cloud storage, payment SDKs, and custom UI
 libraries fit together in a single coherent project.
+
 ---
 > **Android 7.0 (API 24) → latest** &nbsp;|&nbsp; **Java** &nbsp;|&nbsp;
 > **Firebase** &nbsp;|&nbsp; **Cloudinary** &nbsp;|&nbsp; **PayPal · Google Pay**
