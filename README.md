@@ -64,16 +64,31 @@ libraries fit together in a single coherent project.
 ---
 
 ## Features <a name="features"></a>
-<ul>
-  <li>Smart discovery — categories + advanced filters (price, distance, amenities) to quickly narrow results.</li>
-  <li>Explore feeds — three dedicated RecyclerView feeds: Top Picks, Nearby, and Latest.</li>
-  <li>Favorites & history — bookmark listings and keep a lightweight activity history for basic personalization.</li>
-  <li>Secure in-app email relay — messages are routed through the platform so replies show inside the app without exposing raw contact details.</li>
-  <li>Multiway authentication — email/password plus social sign-in options.</li>
-  <li>Real-time updates — listings and metadata update instantly for a responsive UX.</li>
-  <li>Document verification (optional) — host/guest verification flow to increase trust.</li>
-  <li>In-app helpers & notifications — contextual tips and push notifications to guide users.</li>
-</ul>
+**Authentication & Account**
+- Register, sign in, and reset password with real-time field validation via Editify.
+- Full profile editing — name, username, avatar (Cloudinary), gender, location, phone, birthday.
+- Account deletion with confirmation dialog; all data removed from Firestore instantly.
+
+**Catalog & Discovery**
+- Two independent item categories: café drinks and bakery goods.
+- Grid and list layouts that switch automatically based on context.
+- Per-item customisation — size, sugar, and ice for drinks; weight and toppings for bakery items.
+- Real-time search and one-tap favourites, synced instantly to the user profile.
+
+**Cart & Checkout**
+- Quantity controls, discount code input, and a live price breakdown (subtotal, delivery, tax).
+- PayPal and Google Pay via official SDKs — payment completes without leaving the app.
+
+**Backend & Media**
+- Firebase Firestore for real-time data sync across all screens.
+- Firebase Auth for session management and secure account deletion.
+- Cloudinary for image upload and delivery.
+
+**Custom Libraries**
+- [MorphNavBar]([#](https://github.com/Melikash98/MorphNavBar)) — animated bottom nav with a morphing active indicator.
+- [Editify]([#](https://github.com/Melikash98/Editify)) — smart input field with icon support, focus states, and password toggle.
+
+Both libraries target Android 7.0+ and were battle-tested inside BrewBite before release.
 
 ---
 
