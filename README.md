@@ -17,7 +17,7 @@ BrewBite
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/Melikash98/Haus-Suche)
 
 
-<img src="https://raw.githubusercontent.com/Melikash98/Haus-Suche/main/ezgif.com-animated-gif-maker.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
+<img src="https://raw.githubusercontent.com/Melikash98/BrewBiteApp/main/app_video.gif" alt="Logo" width="100%"   height="100%" style="margin-right: 10px;padding-top: 6rem;" />
 ##<p align="left" width="100%">
   <strong>Discover and book beautiful villas and holiday homes for your next getaway.</strong>
   <em> Fast search, real photos, and easy booking — your perfect stay is just a tap away.</em>
