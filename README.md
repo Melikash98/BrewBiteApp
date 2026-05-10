@@ -37,15 +37,29 @@ BrewBite
 
 ## Overview
 
-**BrewBite** is a full-featured Android ordering app for cafés and bakeries.
-It covers the complete user journey — from browsing menu items to online
-payment — while serving as a real-world production case study for two
-custom open-source Android libraries built during development:
-[MorphNavBar]([#](https://github.com/Melikash98/MorphNavBar)) and [Editify]([#](https://github.com/Melikash98/Editify)).
+**BrewBite** is a full-featured Android ordering app for cafés and bakeries,
+covering the complete user journey — from browsing a live menu to online payment.
 
-The project demonstrates how independent libraries can be authored,
-published, and immediately dog-fooded inside a shipping product.
+The project serves a dual purpose: it is a **production-grade portfolio app**
+and a real-world test bench for two custom open-source Android libraries
+authored alongside it — [MorphNavBar]([#](https://github.com/Melikash98/MorphNavBar)) and [Editify]([#](https://github.com/Melikash98/Editify)) — both consumed here
+as dependencies, exactly as any third-party library would be.
 
+Rather than mocking payments or stubbing network calls, BrewBite integrates
+real services end-to-end: Firebase for auth and live data sync, Cloudinary
+for image upload and storage, and PayPal + Google Pay via their official SDKs.
+
+The catalog is split into two distinct item categories (café drinks and bakery
+goods), each rendered in both a grid view and a list view depending on context.
+User sessions, favourites, order history, and profile data all persist in
+Firestore in real time.
+
+This repository is intended as a reference for junior-to-mid Android developers
+who want to see how auth flows, cloud storage, payment SDKs, and custom UI
+libraries fit together in a single coherent project.
+---
+> **Android 7.0 (API 24) → latest** &nbsp;|&nbsp; **Java** &nbsp;|&nbsp;
+> **Firebase** &nbsp;|&nbsp; **Cloudinary** &nbsp;|&nbsp; **PayPal · Google Pay**
 ---
 
 ## Features <a name="features"></a>
