@@ -114,7 +114,7 @@ Both libraries target Android 7.0+ and were battle-tested inside BrewBite before
 
 <p align="left" width="100%">
  This project is licensed under the **MIT License** — perfect for portfolio and demo projects.
- See the [LICENSE](https://github.com/Melikash98/Haus-Suche/blob/main/LICENSE) file for full details.
+ See the [LICENSE]([#]([https://github.com/Melikash98/MorphNavBar](https://github.com/Melikash98/BrewBiteApp/blob/main/LICENSE.md))) file for full details.
 </p>
 
 ---
